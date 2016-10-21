@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#import "APAddressBook.h"
+
 //! Project version number for AddressBook iOS.
 FOUNDATION_EXPORT double AddressBook_iOSVersionNumber;
 

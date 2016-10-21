@@ -35,7 +35,7 @@
 		DEC553091DA7F7C000CD8617 /* APRelatedPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC552EF1DA7F7C000CD8617 /* APRelatedPerson.m */; };
 		DEC5530A1DA7F7C000CD8617 /* APSocialProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC552F11DA7F7C000CD8617 /* APSocialProfile.m */; };
 		DEC5530B1DA7F7C000CD8617 /* APSource.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC552F31DA7F7C000CD8617 /* APSource.m */; };
-		DEC553151DA7F85A00CD8617 /* AddressBook iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC553131DA7F85A00CD8617 /* AddressBook iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEC553151DA7F85A00CD8617 /* AddressBook_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC553131DA7F85A00CD8617 /* AddressBook_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DEC553181DA7F85A00CD8617 /* AddressBook_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC553111DA7F85A00CD8617 /* AddressBook_iOS.framework */; };
 		DEC553191DA7F85A00CD8617 /* AddressBook_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DEC553111DA7F85A00CD8617 /* AddressBook_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DEC5531E1DA7F8B400CD8617 /* APContactBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC552BB1DA7F7C000CD8617 /* APContactBuilder.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -171,7 +171,7 @@
 		DEC552F31DA7F7C000CD8617 /* APSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APSource.m; sourceTree = "<group>"; };
 		DEC552F41DA7F7C000CD8617 /* APTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTypes.h; sourceTree = "<group>"; };
 		DEC553111DA7F85A00CD8617 /* AddressBook_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AddressBook_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEC553131DA7F85A00CD8617 /* AddressBook iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AddressBook iOS.h"; sourceTree = "<group>"; };
+		DEC553131DA7F85A00CD8617 /* AddressBook_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressBook_iOS.h; sourceTree = "<group>"; };
 		DEC553141DA7F85A00CD8617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -198,7 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				DEC552A51DA7F76B00CD8617 /* AddressBook */,
-				DEC553121DA7F85A00CD8617 /* AddressBook iOS */,
+				DEC553121DA7F85A00CD8617 /* AddressBook_iOS */,
 				DEC552A41DA7F76B00CD8617 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -362,14 +362,15 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		DEC553121DA7F85A00CD8617 /* AddressBook iOS */ = {
+		DEC553121DA7F85A00CD8617 /* AddressBook_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				DEC553131DA7F85A00CD8617 /* AddressBook iOS.h */,
+				DEC553131DA7F85A00CD8617 /* AddressBook_iOS.h */,
 				DEC553141DA7F85A00CD8617 /* Info.plist */,
 				DEC552B91DA7F7C000CD8617 /* Private */,
 				DEC552DA1DA7F7C000CD8617 /* Public */,
 			);
+			name = AddressBook_iOS;
 			path = "AddressBook iOS";
 			sourceTree = "<group>";
 		};
@@ -380,7 +381,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEC553151DA7F85A00CD8617 /* AddressBook iOS.h in Headers */,
+				DEC553151DA7F85A00CD8617 /* AddressBook_iOS.h in Headers */,
 				DEC5532B1DA7F8D400CD8617 /* APAddressBook.h in Headers */,
 				DEC5532C1DA7F8D400CD8617 /* APAddress.h in Headers */,
 				DEC5532D1DA7F8D400CD8617 /* APContact.h in Headers */,
@@ -797,6 +798,7 @@
 				DEC5531B1DA7F85A00CD8617 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

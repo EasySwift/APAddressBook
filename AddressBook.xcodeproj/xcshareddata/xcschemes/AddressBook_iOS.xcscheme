@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DEC553101DA7F85A00CD8617"
-               BuildableName = "AddressBook ios.framework"
+               BuildableName = "AddressBook_iOS.framework"
                BlueprintName = "AddressBook_iOS"
                ReferencedContainer = "container:AddressBook.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DEC553101DA7F85A00CD8617"
-            BuildableName = "AddressBook ios.framework"
+            BuildableName = "AddressBook_iOS.framework"
             BlueprintName = "AddressBook_iOS"
             ReferencedContainer = "container:AddressBook.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DEC553101DA7F85A00CD8617"
-            BuildableName = "AddressBook ios.framework"
+            BuildableName = "AddressBook_iOS.framework"
             BlueprintName = "AddressBook_iOS"
             ReferencedContainer = "container:AddressBook.xcodeproj">
          </BuildableReference>
