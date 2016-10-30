@@ -48,14 +48,14 @@ typedef void(^APRequestAccessBlock)(BOOL granted, NSError * _Nullable error);
 @end
 
 
-@interface APAddressBook (Deprecated)
+//@interface APAddressBook (Deprecated)
 
-+ (void)requestAccess:(nonnull APRequestAccessBlock)completionBlock
-AP_DEPRECATED("instance method requestAccess:");
-+ (void)requestAccessOnQueue:(nonnull dispatch_queue_t)queue
-        completion:(nonnull APRequestAccessBlock)completionBlock
-AP_DEPRECATED("instance method requestAccessOnQueue:completion:");
-- (nullable APContact *)getContactByRecordID:(nonnull NSNumber *)recordID
-AP_DEPRECATED("loadContactByRecordID:completion:");
+//+ (void)requestAccess:(nonnull APRequestAccessBlock)completionBlock
+//AP_DEPRECATED("instance method requestAccess:");
+//+ (void)requestAccessOnQueue:(nonnull dispatch_queue_t)queue
+//        completion:(nonnull APRequestAccessBlock)completionBlock
+//AP_DEPRECATED("instance method requestAccessOnQueue:completion:");
+//- (nullable APContact *)getContactByRecordID:(nonnull NSNumber *)recordID
+//AP_DEPRECATED("loadContactByRecordID:completion:");
 
-@end
+//@end
